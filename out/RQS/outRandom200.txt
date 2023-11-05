@@ -1,0 +1,2 @@
+Total memory usage: 6770678 bytes
+Total running time: 1 ms

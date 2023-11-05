@@ -1,0 +1,44 @@
+How to produce InputGenerator output:
+
+javac InputGenerator.java
+java InputGenerator.java > in/inSorted200.txt < genIn/genSorted200.txt
+java InputGenerator.java > in/inRandom200.txt < genIn/genRandom200.txt
+java InputGenerator.java > in/inReversed200.txt < genIn/genReversed200.txt
+
+java InputGenerator.java > in/inSorted2000.txt < genIn/genSorted2000.txt
+java InputGenerator.java > in/inRandom2000.txt < genIn/genRandom2000.txt
+java InputGenerator.java > in/inReversed2000.txt < genIn/genReversed2000.txt
+
+java InputGenerator.java > in/inSorted20000.txt < genIn/genSorted20000.txt
+java InputGenerator.java > in/inRandom20000.txt < genIn/genRandom20000.txt
+java InputGenerator.java > in/inReversed20000.txt < genIn/genReversed20000.txt
+
+How to produce RQS output:
+
+javac RQS.java
+java RQS.java > out/RQS/outSorted200.txt < in/inSorted200.txt
+java RQS.java > out/RQS/outRandom200.txt < in/inRandom200.txt
+java RQS.java > out/RQS/outReversed200.txt < in/inReversed200.txt
+
+java RQS.java > out/RQS/outSorted2000.txt < in/inSorted2000.txt
+java RQS.java > out/RQS/outRandom2000.txt < in/inRandom2000.txt
+java RQS.java > out/RQS/outReversed2000.txt < in/inReversed2000.txt
+
+java RQS.java > out/RQS/outSorted20000.txt < in/inSorted20000.txt
+java RQS.java > out/RQS/outRandom20000.txt < in/inRandom20000.txt
+java RQS.java > out/RQS/outReversed20000.txt < in/inReversed20000.txt
+
+How to produce CBIS output:
+
+javac CBIS.java
+java CBIS.java > out/CBIS/outSorted200.txt < in/inSorted200.txt
+java CBIS.java > out/CBIS/outRandom200.txt < in/inRandom200.txt
+java CBIS.java > out/CBIS/outReversed200.txt < in/inReversed200.txt
+
+java CBIS.java > out/CBIS/outSorted2000.txt < in/inSorted2000.txt
+java CBIS.java > out/CBIS/outRandom2000.txt < in/inRandom2000.txt
+java CBIS.java > out/CBIS/outReversed2000.txt < in/inReversed2000.txt
+
+java CBIS.java > out/CBIS/outSorted20000.txt < in/inSorted20000.txt
+java CBIS.java > out/CBIS/outRandom20000.txt < in/inRandom20000.txt
+java CBIS.java > out/CBIS/outReversed20000.txt < in/inReversed20000.txt
